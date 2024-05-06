@@ -10,4 +10,12 @@ onHide(() => {
   console.log("App Hide");
 });
 </script>
-<style></style>
+<style lang="scss">
+@import '@/styles/fonts.scss';
+swiper,
+scroll-view {
+  flex: 1;
+  height: 100%;
+  overflow: hidden;
+}
+</style>
